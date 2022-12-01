@@ -1,0 +1,112 @@
+  *{
+  padding: 0;
+  margin: 0;
+  
+}
+ul.nav-list{
+  background: #008cb4;
+  height: 10%;
+  text-align: right; 
+  padding-top: 17px;
+  padding-bottom: 17px;
+  
+ 
+  
+   
+  
+}
+.nav-item{
+  font-weight: bold;
+  display: inline-block;
+  margin: 15px;
+/*  background-color: none; */
+  
+  
+}
+  .nav-item a{
+    
+    text-decoration: none;
+    color: #232323;
+    font-family: Copperplate, Papyrus, fantasy;
+    font-size: large;
+    padding: 15px 30px;
+    border: 2px solid; 
+    border-radius: 70px;
+    background-color: #edecf0;
+    
+  }
+footer{
+  text-align: center;
+  background: #008cb4;
+  position: fixed;
+  bottom: 0;
+  width: 100%; 
+  padding-top: 8px;
+  padding-bottom: 8px;
+  
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #d6d6d6;
+}
+
+.about{
+  width: 100%
+  /*padding: auto;*/
+ /* background-color: #d6d6d6*/
+  
+}
+.about img{
+  height: auto;
+ /* max-width: 40%;*/
+  border-style: solid;
+  width: 300px;
+  height: 400px;
+  margin-right: 1.5em;
+  margin-top: 4.0em;
+  
+  
+  
+}
+.about-text{
+  width: 550px;
+  font-family: Copperplate, Papyrus, fantasy;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+ .about-text h1{
+  color: black;
+  font-size: 35px;
+  margin-bottom: 30px;
+  font-family: Copperplate, Papyrus, fantasy; 
+}
+.about-text h5{
+  font-size: 25px;
+  font-family: Copperplate, Papyrus, fantasy;
+  margin-top: 20px;
+  margin-bottom: 2px;
+}
+.about-text h2{
+  font-size: 15px;
+  font-family: Copperplate, Papyrus, fantasy;
+  margin-top: 20px;
+  margin-bottom: 2px;
+  text-align: center;
+}
+.about-text p{
+  font-size: 15px;
+  font-family: Copperplate, Papyrus, fantasy;
+}
+
+
+.main{
+  width: 1130%;
+  max-width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
